@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-weight: bold;
+        }
+
+        .head {
+
+            background: rgb(238, 229, 229);
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+            justify-content: space-around;
+            width: 100%;
+            max-width: 100%;
+
+        }
+
+        .mainflex {
+            text-align: center;
+            display: flex;
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .mainpart {
+            padding-top: 40px;
+            text-align: center;
+            margin: 10px;
+            display: inline-flexbox;
+            align-self: flex-end;
+            width: 100%;
+            max-width: 100%;
+            height: 5vw;
+
+        }
+
+        .flexaside {
+            padding: 2rem;
+            background: rgb(200, 227, 191);
+            display: flex;
+
+            justify-content: center;
+
+            flex-grow: 1;
+            width: 100%;
+            max-width: 100%;
+
+
+        }
+
+        .flex-container {
+
+            background: beige;
+
+            display: flex;
+            flex-direction: row;
+
+
+            flex-basis: 60vw;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+        }
+
+        .flexd {
+
+            padding: 100px;
+            background: bisque;
+            text-align: center;
+            display: flex;
+
+            justify-content: center;
+
+            width: 25%;
+            flex-wrap: wrap;
+        }
+
+        .flexd1 {
+            background: bisque;
+
+            text-align: center;
+            margin: 10px;
+            display: inline-flexbox;
+            padding: 30px;
+            align-self: flex-end;
+            width: 87%;
+
+
+        }
+
+        .flexfooter {
+
+            background: rgb(238, 229, 229);
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+            justify-content: space-around;
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .footsection {
+
+            padding: 30px;
+            background: rgb(248, 245, 245);
+            display: flex;
+            align-items: stretch;
+            justify-content: space-around;
+
+            width: 10%
+        }
+    </style>
+</head>
+
+
+<header>
+
+    <div class="head">
+        [Шапка страницы]
+    </div>
+
+
+</header>
+
+
+
+<main class="mainflex">
+
+    <div class="flex-container">
+        <div class="mainpart"> [Основная часть] </div>
+        <div class="flexd">[flex-элемент #1] </div>
+        <div class="flexd">[flex-элемент #2]</div>
+        <div class="flexd1">[flex-элемент #3]</div>
+
+
+
+
+    </div>
+    <aside class="flexaside">[Боковая часть]</aside>
+
+
+
+    <section>
+
+
+    </section>
+    <article>
+
+    </article>
+</main>
+<footer class="flexfooter">
+
+    <p class="footsection">[секция футера]</p>
+    <p class="footsection">[секция футера]</p>
+    <p class="footsection">[секция футера]</p>
+    <p class="footsection">[секция футера]</p>
+
+</footer>
+
+</body>
+
+</html>
